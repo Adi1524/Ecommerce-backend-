@@ -60,7 +60,7 @@ public class CartItemController {
         // If you are using ObjectMapper to map JSON, let's log the incoming request directly
         System.out.println("Received cartItem JSON: " + cartItemRequest.toString());
         
-        User user = userService.findUserProfileByJwt(jwt);
+        // User user = userService.findUserProfileByJwt(jwt);
         // CartItem updatedCartItem = cartItemService.updateCartItem(user.getId(), cartItemId, cartItemRequest);
         // return new ResponseEntity<CartItem>(updatedCartItem, HttpStatus.ACCEPTED);
         return null;
